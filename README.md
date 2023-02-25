@@ -1,11 +1,11 @@
-About trame-vtk
-===============
+About trame-vtk-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/trame-vtk-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/trame-vtk/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/trame-vtk-feedstock/blob/main/LICENSE.txt)
 
 Summary: VTK widgets for trame
 
