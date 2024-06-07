@@ -1,5 +1,5 @@
 {% set name = "trame-vtk" %}
-{% set version = "2.8.8" %}
+{% set version = "2.8.9" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/trame-vtk-{{ version }}.tar.gz
-  sha256: de2bbc45dd5a70ffd12d3941ca1ed7de7b125ea77f879c7beb3f3c4c5d5037c6
+  sha256: 718c378fc54706978e4d87bac6da5dc5e1a9ddde958759f51a0f3f4c7544cc30
 
 build:
   number: 0
