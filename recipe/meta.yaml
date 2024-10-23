@@ -1,5 +1,5 @@
 {% set name = "trame-vtk" %}
-{% set version = "2.8.10" %}
+{% set version = "2.8.11" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/trame-vtk-{{ version }}.tar.gz
-  sha256: 4d8e38f7c1d5be8eafc28254bd5bd5dc5d4b336a334b944fc9383c9624184b5e
+  sha256: cd8391181fc8dbfee1f24dad2d7377db8aab5b012362108b985da88b4b271ac3
 
 build:
   number: 0
@@ -18,9 +18,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
+    - setuptools
   run:
-    - python >=3.7
+    - python >=3.8
     - trame-client
 
 test:
