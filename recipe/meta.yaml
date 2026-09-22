@@ -1,5 +1,5 @@
 {% set name = "trame-vtk" %}
-{% set version = "2.11.16" %}
+{% set version = "2.11.17" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 9525a05cfd135794a72e4267521fd4b3b47ed929d52e03b5465a1579e469d9a7
+  sha256: 367ef96505f27d6a01c03cdc4a8fe3f8894998d2b6b623512ef07c1fe716caba
 
 build:
   number: 0
@@ -22,7 +22,7 @@ requirements:
     - hatchling
   run:
     - python >={{ python_min }}
-    - trame-client
+    - trame-client >=3.4,<5
 
 test:
   imports:
